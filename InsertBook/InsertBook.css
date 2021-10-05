@@ -1,0 +1,154 @@
+.topScreen{
+    top:0;
+    left:0;
+    width:100%;
+    height:5%;
+    color:black;
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 0.7cm;
+}
+
+
+.lien{
+    position:absolute;
+    top:5%;
+    left:0;
+    width: 100%;
+    height:10%;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+
+#form-insert{
+    position:relative;
+    left: 10px;
+}
+
+
+#home{
+    border:  1px solid black;
+    border-radius: 15px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 0.6cm;
+    color: black;
+    background-color: whitesmoke;
+}
+
+#research{
+    border:  1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 0.6cm;
+    color: black;
+    border-radius:15px;
+    background-color: whitesmoke;
+}
+
+#consult_Library{
+    border:  1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 0.6cm;
+    color: black;
+    border-radius:15px;
+    background-color: whitesmoke;
+}
+
+#remove{
+    border:  1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 0.6cm;
+    color: black;
+    border-radius:15px;
+    background-color: whitesmoke;
+}
+
+.left-lateral{
+    left:0;
+    top:15%;
+    position: absolute;
+    height: 75%;
+    width: 20%;
+    /*background-color: white;*/
+}
+
+.right-lateral{
+    left:80.3%;
+    top:15%;
+    position: absolute;
+    height: 75%;
+    width: 19.7%;
+    /*background-color: white;*/
+}
+
+.middle{
+    position: absolute;
+    left:20%;
+    top: 20%;
+    width:60%;
+    height:65%;
+    background-color: honeydew;
+    border: 1px solid grey;
+}
+
+/*.bottomScreen{*/
+/*    border: 1px solid red;*/
+/*    position:absolute;*/
+/*    left:1px;*/
+/*    top:90%;*/
+/*    width: 99.8%;*/
+/*    height:9.6%;*/
+/*    background-color: white;*/
+/*}*/
+
+.dimension{
+    filter: brightness(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#Rules{
+    position: absolute;
+    left:10px;
+    top:25%;
+    width:100%;
+
+}
+
+#Complement{
+    position: absolute;
+    left:10px;
+    top:30%;
+    width:25%;
+
+}
+
+#finishRules{
+    position:absolute;
+    left:0;
+    top:35%;
+    width:50%;
+}
+
+.placement{
+    position: relative;
+    left: 10px;
+    top: 40%;
+    width:50%;
+}

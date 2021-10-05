@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Choice_Page</title>
+    <link href="InsertBook.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<img src="img_biblio.jpg" alt="library" title="library" class="dimension" />
+    <header class="topScreen">Insert a Book</header>
+
+    <div class="lien">
+    <a href="../WelcomePage/WelcomePage.html" class="grid" id="home">Home</a>
+    <a href ="../SearchBook/Search.html" class="grid" id ="research">Research</a>
+    <a href="../ListOfBooks/List_Books.html" class="grid" id="consult_Library">Consult the Library</a>
+        <a href= "../FinishProgram/FinishProgram.html" class="grid" id="remove">Shutdown</a>
+    </div>
+
+    <aside class="left-lateral"></aside>
+    <section class="middle">
+        <form action="../ResultPage/result.html" id="form-insert">
+            Author name: <input name="name" maxlength="50" class="author" placeholder="author"   required type="text" ><br>
+            Book name: <input name="book" maxlength="50" class="book" placeholder="book"  required type="text" ><br>
+            Number pages: <input name="nPages" class="pages" placeholder="Number of page" required type="number" ><br>
+            Genre: <input name="genre" maxlength="50" class="genres"placeholder="Genre"  required type="text"><br>
+            <input id="go" type="submit" value="GO!">
+        </form>
+        <p id="Rules">Rules : Please write all the information in tiny letters and number in Roman Numeral except for the number of pages</p>
+        <p id="Complement"> Exemple:</p>
+        <div id ="finishRules">
+            <p class ="placement"> Author name: tolkien</p>
+            <p class="placement">Book name : the lord of the rings II</p>
+            <p class="placement"> Number pages: 1216</p>
+            <p class="placement">genres: fantasy</p>
+        </div>
+
+
+    </section>
+    <aside class="right-lateral"></aside>
+<script src="InsertBook.js"></script>
+</body>
+</html>
